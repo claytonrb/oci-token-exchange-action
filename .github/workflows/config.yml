@@ -26,7 +26,7 @@ jobs:
     - name: Run OCI Token Exchange Action
       uses: gtrevorrow/oci-token-exchange-action@main
       with:
-        client_id: ${{ secrets.CLIENT_ID }}
+        client_id: '3324663ac86343d69e1b5957bf5bbd51'
         client_secret: ${{ secrets.CLIENT_SECRET }}
         domain_base_url: ${{ vars.DOMAIN_BASE_URL }}
         oci_user: ${{ secrets.OCI_USER }}
