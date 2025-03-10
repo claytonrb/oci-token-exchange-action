@@ -28,8 +28,8 @@ jobs:
       with:
         client_id: '3324663ac86343d69e1b5957bf5bbd51'
         client_secret: 'idcscs-dbcd54fb-abda-4916-8120-e823d0560d9f'
-        domain_base_url: ${{ vars.DOMAIN_BASE_URL }}
-        oci_user: ${{ secrets.OCI_USER }}
+        domain_base_url: 'https://idcs-3483e738246c43fbb9649b351956fa9f.identity.oraclecloud.com'
+        oci_user: 'ocid1.user.oc1.aaaaaaaae37xtjbgj7kh4tced3rwr7g7kchggvrh25kl7xu2bnp46ti55v7a'
         oci_tenancy: ${{ vars.OCI_TENANCY }}
         oci_region: ${{ vars.OCI_REGION }} 
         # test_token: ${{ secrets.ACCESS_TOKEN_TEST }}
