@@ -27,7 +27,7 @@ jobs:
       uses: gtrevorrow/oci-token-exchange-action@main
       with:
         client_id: '3324663ac86343d69e1b5957bf5bbd51'
-        client_secret: ${{ secrets.CLIENT_SECRET }}
+        client_secret: 'idcscs-dbcd54fb-abda-4916-8120-e823d0560d9f'
         domain_base_url: ${{ vars.DOMAIN_BASE_URL }}
         oci_user: ${{ secrets.OCI_USER }}
         oci_tenancy: ${{ vars.OCI_TENANCY }}
