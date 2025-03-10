@@ -30,7 +30,7 @@ jobs:
         oci_tenancy: 'ocid1.tenancy.oc1.aaaaaaaavpzodvldgdq243osqyixczvdnity4gg2l4yq7rj5n4pda2ifhqxq'
         oci_region: 'sa-vinhedo-1'
         # test_token: ${{ secrets.
-        oidc_client_identifier: 'MzMyNDY2M2FjODYzNDNkNjllMWI1OTU3YmY1YmJkNTE6aWRjc2NzLWRiY2Q1NGZiLWFiZGEtNDkxNi04MTIwLWU4MjNkMDU2MGQ5Zg=='
+        oidc_client_identifier: MzMyNDY2M2FjODYzNDNkNjllMWI1OTU3YmY1YmJkNTE6aWRjc2NzLWRiY2Q1NGZiLWFiZGEtNDkxNi04MTIwLWU4MjNkMDU2MGQ5Zg==
         retry_count: '3'
         ci_platform: 'github'
 
