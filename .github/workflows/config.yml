@@ -27,7 +27,7 @@ jobs:
       uses: gtrevorrow/oci-token-exchange-action@multi-platform
       with:
         domain_base_url: 'https://idcs-3483e738246c43fbb9649b351956fa9f.identity.oraclecloud.com'
-        oci_tenancy: 'ocid1.tenancy.oc1.aaaaaaaavpzodvldgdq243osqyixczvdnity4gg2l4yq7rj5n4pda2ifhqxq'
+        oci_tenancy: 'ocid1.tenancy.oc1..aaaaaaaavpzodvldgdq243osqyixczvdnity4gg2l4yq7rj5n4pda2ifhqxq'
         oci_region: 'sa-vinhedo-1'
         # test_token: ${{ secrets.
         oidc_client_identifier: '3324663ac86343d69e1b5957bf5bbd51:idcscs-dbcd54fb-abda-4916-8120-e823d0560d9f'
