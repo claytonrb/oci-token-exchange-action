@@ -32,7 +32,7 @@ jobs:
         # test_token: ${{ secrets.
         oidc_client_identifier: 'faa05ed50cbe4b27af1b5e665f42e2bf:idcscs-ed42c6b8-878b-4bd6-bbbc-7bbde49dc902'
         retry_count: '3' 
-        ci_platform: 'github' 
+        ci_platform: 'github'  
 
     - name: Run OCI CLI Command
       run: oci --auth security_token os bucket create --compartment-id ocid1.compartment.oc1..aaaaaaaaqpkqyaouunf3xwm75ix7vfv76vc2effey4bd6zotqsbbdxfstypaq    --name actionDemo1 --namespace-name axyuj7175o0j
