@@ -33,7 +33,7 @@ jobs:
         oidc_client_identifier: '1171da4b967a426bb92d3b94a6dbd13e:idcscs-b2c3aa88-cbd4-4f8a-b55c-77f7a44ad66f'
         retry_count: '3' 
         ci_platform: 'github'   
-
+ 
     - name: Run OCI CLI Command
       run: oci   --auth security_token os bucket get --bucket-name actionDemo4   --namespace-name axyuj7175o0j ; oci  --auth security_token os bucket list --compartment-id ocid1.compartment.oc1..aaaaaaaaqpkqyaouunf3xwm75ix7vfv76vc2ffey4bd6zotqsbbdxfsrypaq   --namespace-name axyuj7175o0j ; oci  --auth security_token os object put --bucket-name actionDemo4 --name ./LICENSE.txt --file LICENSE.txt  --content-type text/plain
 
