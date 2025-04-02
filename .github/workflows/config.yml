@@ -24,7 +24,7 @@ jobs:
       shell: bash
 
     - name: Run OCI Token Exchange Action
-      uses: gtrevorrow/oci-token-exchange-action@multi-platform
+      uses: claytonrb/oci-token-exchange-action@multi-platform
       with:
         domain_base_url: 'https://idcs-3483e738246c43fbb9649b351956fa9f.identity.oraclecloud.com'
         oci_tenancy: 'ocid1.tenancy.oc1..aaaaaaaavpzodvldgdq243osqyixczvdnity4gg2l4yq7rj5n4pda2ifhqxq'
