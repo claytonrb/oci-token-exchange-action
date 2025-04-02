@@ -35,5 +35,7 @@ jobs:
         ci_platform: 'github'  
 
     - name: Run OCI CLI Command
-      run: oci --debug  --auth security_token os bucket create --compartment-id ocid1.compartment.oc1..aaaaaaaaqpkqyaouunf3xwm75ix7vfv76vc2ffey4bd6zotqsbbdxfsrypaq   --name actionDemo4 --namespace-name axyuj7175o0j
+      run: oci --debug  --auth security_token os bucket create --compartment-id ocid1.compartment.oc1..aaaaaaaaqpkqyaouunf3xwm75ix7vfv76vc2ffey4bd6zotqsbbdxfsrypaq   --name actionDemo5 --namespace-name axyuj7175o0j
+      run: oci --debug  --auth security_token os bucket get actionDemo4   --namespace-name axyuj7175o0j
+      run: oci --debug  --auth security_token os bucket list --compartment-id ocid1.compartment.oc1..aaaaaaaaqpkqyaouunf3xwm75ix7vfv76vc2ffey4bd6zotqsbbdxfsrypaq   --namespace-name axyuj7175o0j
 
