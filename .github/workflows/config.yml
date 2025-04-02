@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-node@v4.0.3
       with:
         node-version: '20'
-
+ 
     - name: Install OCI CLI
       run: |
         curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh | bash -s -- --accept-all-defaults
