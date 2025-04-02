@@ -22,7 +22,7 @@ jobs:
         curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh | bash -s -- --accept-all-defaults
         echo "$HOME/bin" >> $GITHUB_PATH
       shell: bash
- 
+  
     - name: Run OCI Token Exchange Action
       uses: claytonrb/oci-token-exchange-action@multi-platform
       with:
