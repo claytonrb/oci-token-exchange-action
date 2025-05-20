@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest  
     permissions:
         contents: 'read' 
         id-token: 'write'
@@ -23,7 +23,7 @@ jobs:
         echo "$HOME/bin" >> $GITHUB_PATH
       shell: bash
   
-    - name: Run OCI Token Exchange Action
+    - name: Run OCI Token Exchange Action 
       uses: claytonrb/oci-token-exchange-action@multi-platform
       with:
         domain_base_url: 'https://idcs-3483e738246c43fbb9649b351956fa9f.identity.oraclecloud.com'
